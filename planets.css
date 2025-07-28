@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('images/stars.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+  flex-direction: column;
+
+    
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid yellow;
+    background-color: black;
+
+}
+
+.navbar .logo{
+    font-family: "Audiowide", sans-serif;
+}
+
+.navbar .sections {
+    color: white;
+    display: flex;
+    gap: 20px;
+    margin-right: 5%;
+   margin-top: 10px;
+}
+
+.navbar .sections a{
+    text-decoration: none;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+
+}
+
+.navbar .sections a:hover{
+    color: #00ffff;
+}
+
+.sun{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sun h1{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: 0 0 10px aqua, 0 0 5px black;
+    
+}
+
+.sun .image img{
+    width: 700px;
+    
+}
+
+
+.sun .description{
+    background-color: yellow;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid aqua; 
+    
+}
+
+.mercury{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mercury h1{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: 0 0 10px aqua, 0 0 5px black;
+    
+}
+
+.mercury .image img{
+    width: 400px
+    
+}
+
+
+.mercury .description{
+    background-color: yellow;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid aqua; 
+    
+}
+
+.venus{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.venus h1{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: 0 0 10px aqua, 0 0 5px black;
+    
+}
+
+.venus .image img{
+    width: 400px
+    
+}
+
+
+.venus .description{
+    background-color: yellow;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid aqua; 
+    
+}
+
+.earth{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.earth h1{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: 0 0 10px aqua, 0 0 5px black;
+    
+}
+
+.earth .image img{
+    width: 400px
+    
+}
+
+
+.earth .description{
+    background-color: yellow;
+    max-width:  1000px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid aqua; 
+    
+}
+
+.mars{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mars h1{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: 0 0 10px aqua, 0 0 5px black;
+    
+}
+
+.mars .image img{
+    width: 400px
+    
+}
+
+
+.mars .description{
+    background-color: yellow;
+    max-width:  1000px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid aqua; 
+    
+}
+
+.jupiter{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.jupiter h1{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: 0 0 10px aqua, 0 0 5px black;
+    
+}
+
+.jupiter .image img{
+    width: 400px
+    
+}
+
+
+.jupiter .description{
+    background-color: yellow;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid aqua; 
+    
+}
+
+.saturn{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.saturn h1{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: 0 0 10px aqua, 0 0 5px black;
+    
+}
+
+.saturn .image img{
+    width: 600px
+    
+}
+
+
+.saturn .description{
+    background-color: yellow;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid aqua; 
+    
+}
+
+.uranus{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.uranus h1{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: 0 0 10px aqua, 0 0 5px black;
+    
+}
+
+.uranus .image img{
+    width: 600px
+    
+}
+
+
+.uranus .description{
+    background-color: yellow;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid aqua; 
+    
+}
+
+.neptune{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.neptune h1{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: 0 0 10px aqua, 0 0 5px black;
+    
+}
+
+.neptune .image img{
+    width: 400px
+    
+}
+
+
+.neptune .description{
+    background-color: yellow;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid aqua; 
+    
+}
+
+.pluto{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pluto h1{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: 0 0 10px aqua, 0 0 5px black;
+    margin-bottom: 50px;
+}
+
+
+
+.pluto .description{
+    background-color: aqua;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid yellow; 
+    
+}
+
+
+
+ .nextbutton{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ .nextbutton a{
+    margin: 30px;
+    text-decoration: none;
+    background-color: yellow;
+    width: 160px;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: "Rajdhani", sans-serif;
+    color: #000;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    
+}
+
+.nextbutton a:hover{
+    transform: scale(1.05);
+    background-color: aqua;
+}
+
+
+footer {
+ margin-top: auto;
+  background-color: #000010;
+  color: #00ffff;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #00ffff33;
+  font-size: 0.9rem;
+  
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .navbar .sections {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0 0 0;
+  }
+
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .nextbutton {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .nextbutton a {
+    width: 80%;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .sun .image img,
+  .mercury .image img,
+  .venus .image img,
+  .earth .image img,
+  .mars .image img,
+  .jupiter .image img,
+  .saturn .image img,
+  .uranus .image img,
+  .neptune .image img {
+    width: 90%;
+  }
+
+  .description {
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 25px;
+  }
+
+  .description,
+.navbar,
+footer {
+    word-wrap: break-word;
+    text-align: center;
+}
+
+}
+
